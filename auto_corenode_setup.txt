@@ -1,0 +1,10 @@
+crontab -e
+
+* */6 * * * /root/veri/automate_nodecore.sh
+
+wget "https://raw.githubusercontent.com/Pdpe/Python/master/automate_nodecore.sh"
+
+chmod a+x automate_nodecore.sh
+
+./automate_nodecore.sh
+
