@@ -8,3 +8,4 @@ chmod a+x automate_nodecore.sh
 
 ./automate_nodecore.sh
 
+cd /root/veri && ./automate_nodecore.sh && exit
